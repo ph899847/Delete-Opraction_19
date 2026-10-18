@@ -1,0 +1,103 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #dbeafe, #eff6ff);
+  min-height: 100vh;
+  padding: 40px 15px;
+}
+
+.container {
+  max-width: 850px;
+  margin: 0 auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-bottom: 25px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #2563eb;
+  color: white;
+}
+
+th,
+td {
+  padding: 14px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+tbody tr:hover {
+  background-color: #f1f5f9;
+}
+
+.delete-btn {
+  background-color: #dc2626;
+  color: white;
+  border: none;
+  padding: 9px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.delete-btn:hover {
+  background-color: #991b1b;
+}
+
+.count {
+  text-align: right;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #1e3a8a;
+}
+
+.no-data {
+  padding: 25px;
+  color: #64748b;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 22px;
+  }
+
+  th,
+  td {
+    padding: 8px 4px;
+    font-size: 12px;
+  }
+
+  .delete-btn {
+    padding: 7px 9px;
+    font-size: 12px;
+  }
+}
